@@ -1,0 +1,15 @@
+  441  nano class_activity1/syscall_print_linux.c
+  442  nano syscall_print_linux.c
+  443  gcc class_activity1/syscall_print_linux.c -o class_activity1/linux_print
+  444  ls
+  445  gcc syscall_print_linux.c -o linux_print
+  446  ./linux_print
+  447  cd ..
+  448  cd class_activity2
+  449  nano forkchild.c
+  450  gcc -o forkchild forkchild.c
+  451  ./forkchild > result_forkchild.txt
+  452  result_forkchild.txt
+  453  ls
+  454  cat result_forkchild.txt
+  455  history | tail -n 15 > command_used_forkchild.txt
