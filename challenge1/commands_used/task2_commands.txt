@@ -1,0 +1,2 @@
+grep " 401 \| 403 " original_log/access.log
+grep " 401 \| 403 " original_log/access.log | awk '{print $1}' | sort | uniq -c | sort -nr

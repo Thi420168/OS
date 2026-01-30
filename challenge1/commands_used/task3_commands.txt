@@ -1,0 +1,3 @@
+grep -i "bot\|scan\|exploit\|curl\|wget" original_log/access.log
+grep -i "/wp-admin\|/admin\|/\.git" original_log/access.log
+grep -i "\?cmd=\|\?action=" original_log/access.log

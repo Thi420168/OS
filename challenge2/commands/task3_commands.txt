@@ -1,0 +1,1 @@
+cut -d";" -f3 challenge2/data/employees.txt | cut -d":" -f2 | grep "^j"

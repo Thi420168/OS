@@ -1,0 +1,5 @@
+ls original_log/
+ls original_log/ | wc -l
+wc -l original_log/access.log
+head -5 original_log/access.log
+tail -5 original_log/access.log
