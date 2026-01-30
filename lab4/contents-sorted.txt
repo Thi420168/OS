@@ -1,0 +1,6 @@
+drwxrwxr-x  2 gic-oun-rithi gic-oun-rithi 4096 Oct 23 14:21 ex1
+drwxrwxr-x  3 gic-oun-rithi gic-oun-rithi 4096 Oct 23 14:22 etc
+drwxrwxr-x  9 gic-oun-rithi gic-oun-rithi 4096 Nov 27 14:21 Compilation
+drwxr-xr-x 10 gic-oun-rithi gic-oun-rithi 4096 Nov 20 14:22 lab3
+drwxr-xr-x  4 gic-oun-rithi gic-oun-rithi 4096 Nov 20 14:21 lab2
+total 20

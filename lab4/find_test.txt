@@ -1,0 +1,2 @@
+/usr/share/test
+/usr/share/lab4/test

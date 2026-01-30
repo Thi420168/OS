@@ -1,0 +1,50 @@
+   28  cd user
+   29  mkdire user
+   30  mkdir user
+   31  cd user
+   32  mkdir user.conf
+   33  ls
+   34  clear
+   35  ls
+   36  ls lab2
+   37  exit
+   38  scp -r ~/lab2 gic-oun-rithi@192.168.20.58:/home/gic-oun-rithi/
+   39  scp -r ~/lab2 gic-oun-rithi@192.168.23.32:/home/gic-oun-rithi/
+   40  ls
+   41  ls lab2
+   42  cd lab2
+   43  ls
+   44  ssh gic-oun-rithi@192.168.23.32
+   45  cd 
+   46  exit
+   47  ls
+   48  scp -r ~/lab2 gic-oun-rithi@192.168.20.58:/home/gic-oun-rithi/
+   49  ssh gic-oun-rithi@192.168.23.32
+   50  scp -r ~/lab2 gic-oun-rithi@192.168.23.32:/home/gic-oun-rithi/
+   51  ssh gic-oun-rithi@192.168.23.32
+   52  ls
+   53  lab2
+   54  ls lab2
+   55  rm lab2
+   56  ls lab2
+   57  git clone https://github.com/Thi420168/Compilation.git
+   58  cd Compilation
+   59  ls
+   60  exit
+   61  cd ~/Compilation
+   62  ls
+   63  git pull
+   64  ls class_activity2
+   65  ls
+   66  mkdir lab4
+   67  cd lab4
+   68  ls -l ~ > ~/lab4/contents.txt
+   69  ls -l ~ > ~/Compilation/lab4/contents.txt
+   70  sort ~/Compilation/lab4/contents.txt > ~/Compilation/lab4/contents-sorted.txt
+   71  mkdir -p ~/Compilation/lab4/Documents
+   72  tail /etc/passwd > ~/Compilation/lab4/Documents/newfile.txt
+   73  wc -w < ~/Compilation/lab4/contents.txt > ~/Compilation/lab4/filed2.txt
+   74  head -n 5 /etc/passwd | sort -r > ~/Compilation/lab4/passwd_head_sorted.txt
+   75  tail -n 9 ~/Compilation/lab4/contents.txt | wc -m > ~/Compilation/lab4/charcount.txt
+   76  find /usr/share -name test > ~/Compilation/lab4/find_test.txt
+   77  history | tail -n 50 > ~/Compilation/lab4/commands_history.txt
